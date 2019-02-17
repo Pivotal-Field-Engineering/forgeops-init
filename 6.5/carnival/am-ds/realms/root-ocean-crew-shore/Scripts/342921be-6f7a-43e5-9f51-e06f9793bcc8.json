@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/crew/shore",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "Scripts",
+    "entityId" : "342921be-6f7a-43e5-9f51-e06f9793bcc8",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "342921be-6f7a-43e5-9f51-e06f9793bcc8",
+    "name" : "FacebookMobileAuth",
+    "description" : null,
+    "script" : "bG9nZ2VyLmVycm9yKCJFTlRFUklORyBGQUNFQk9PSyBNT0RVTEUiKTsKCmRhdGE9SlNPTi5wYXJzZShjbGllbnRTY3JpcHRPdXRwdXREYXRhKTsKCnVzZXJhY2Nlc3N0b2tlbj1kYXRhLmFjY2Vzc3Rva2VuCmNsaWVudGFjY2Vzc3Rva2VuPWRhdGEuY2xpZW50dG9rZW4KCnZhciB1c2VyYWNjZXNzdG9rZW5TdHIgPSB1c2VyYWNjZXNzdG9rZW4uc2xpY2UoMSwgLTEpOwoKbG9nZ2VyLmVycm9yKCJDTElFTlRfQUNDRVNTX1RPS0VOOiAiICsgY2xpZW50YWNjZXNzdG9rZW4pOwpsb2dnZXIuZXJyb3IoIlVTRVJfQUNDRVNTX1RPS0VOOiAiICsgdXNlcmFjY2Vzc3Rva2VuU3RyKTsKCgp2YXIgZmJSc3AgPSBodHRwQ2xpZW50LmdldCgiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vZGVidWdfdG9rZW4/YWNjZXNzX3Rva2VuPSIgKyBjbGllbnRhY2Nlc3N0b2tlbiArICImaW5wdXRfdG9rZW49IiArIHVzZXJhY2Nlc3N0b2tlblN0ciwKewogICAgY29va2llcyA6IFtdLAogICAgaGVhZGVycyA6IFtdCn0pOwoKcmVzcCA9IEpTT04ucGFyc2UoZmJSc3AuZ2V0RW50aXR5KCkpOwoKdmFyIGZiSnNvblN0ciA9IEpTT04uc3RyaW5naWZ5KHJlc3ApOwoKbG9nZ2VyLmVycm9yKCJGQklEX1NURVAgMTogIiArIGZiSnNvblN0cik7Cgp2YXIgZmJKc29uID0gSlNPTi5wYXJzZShmYkpzb25TdHIpOwoKbG9nZ2VyLmVycm9yKCJGQklEX1NURVAgMjogIiArIGZiSnNvbi5kYXRhLnVzZXJfaWQpOwoKdXNlcm5hbWU9ZmJKc29uLmRhdGEudXNlcl9pZDsKCmxvZ2dlci5lcnJvcigiRkJJRF9TVEVQIDM6ICIgKyBmYkpzb24uZGF0YS5pc192YWxpZCk7CgpzdGF0dXM9ZmJKc29uLmRhdGEuaXNfdmFsaWQudG9TdHJpbmcoKTsKZmFpbENvbmQ9ImZhbHNlIgoKaWYgKGZhaWxDb25kID09IHN0YXR1cyl7CgogIGxvZ2dlci5lcnJvcigiRkJJRF9TVEVQIDQ6IFRva2VuIGlzIEludmFsaWQiKTsKICBhdXRoU3RhdGUgPSBGQUlMRUQKCn0gZWxzZSB7CgoJdXNlcm5hbWU9ZmJKc29uLmRhdGEudXNlcl9pZDsKCglsb2dnZXIuZXJyb3IoIkZCSURfU1RFUCA1OiAiICsgdXNlcm5hbWUpOwoKICAJCWlmIChpZFJlcG9zaXRvcnkuZ2V0QXR0cmlidXRlKHVzZXJuYW1lLCJ1aWQiKS5pc0VtcHR5KCkpIHsKICAgICAgICAgIAlhdXRoU3RhdGUgPSBGQUlMRUQKICAgICAgICB9IGVsc2UgewoKICAvL0FkZCBMb2dpYyB0byBjaGVjayBmb3IgaW5ldHVzZXJzdGF0dXMgPSBBY3RpdmUvSW5hY3RpdmUKCmF1dGhTdGF0ZSA9IFNVQ0NFU1M7Cgp9Cgp9",
+    "default" : false,
+    "language" : "JAVASCRIPT",
+    "context" : "AUTHENTICATION_SERVER_SIDE",
+    "createdBy" : "null",
+    "creationDate" : 0,
+    "lastModifiedBy" : "null",
+    "lastModifiedDate" : 0
+  }
+}

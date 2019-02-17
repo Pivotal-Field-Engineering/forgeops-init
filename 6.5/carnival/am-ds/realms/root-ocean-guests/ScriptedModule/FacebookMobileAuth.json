@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/guests",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "ScriptedModule",
+    "entityId" : "FacebookMobileAuth",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "FacebookMobileAuth",
+    "authenticationLevel" : 1,
+    "clientScript" : "[Empty]",
+    "clientScriptEnabled" : true,
+    "serverScript" : "05e63b82-ae2e-432d-a39b-fc96aee2b629",
+    "_type" : {
+      "_id" : "scripted",
+      "name" : "Scripted Module",
+      "collection" : true
+    }
+  }
+}

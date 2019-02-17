@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/guests",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "ScriptedModule",
+    "entityId" : "Medallion",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Medallion",
+    "authenticationLevel" : 1,
+    "clientScript" : "[Empty]",
+    "serverScript" : "9dad8f21-b2c7-4b96-9188-4fff6d7919bb",
+    "clientScriptEnabled" : true,
+    "_type" : {
+      "_id" : "scripted",
+      "name" : "Scripted Module",
+      "collection" : true
+    }
+  }
+}

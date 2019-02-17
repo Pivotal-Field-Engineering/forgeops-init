@@ -1,0 +1,37 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/crew/ship",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "LdapModule",
+    "entityId" : "LDAP",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "LDAP",
+    "authenticationLevel" : 0,
+    "userSearchFilter" : null,
+    "searchScope" : "SUBTREE",
+    "returnUserDN" : true,
+    "userBindPassword" : null,
+    "userBindPassword-encrypted" : "AAAAA0FFUwIQPNX2k/Dmlx7apIdjYLrj9Mx+Y3rSC8NVNheBgZFnEeta5o3XIOnuoQ==",
+    "profileAttributeMappings" : [ ],
+    "userBindDN" : "cn=Directory Manager",
+    "userSearchAttributes" : [ "uid", "mail" ],
+    "connectionHeartbeatTimeUnit" : "SECONDS",
+    "beheraPasswordPolicySupportEnabled" : true,
+    "userProfileRetrievalAttribute" : "uid",
+    "minimumPasswordLength" : "8",
+    "openam-auth-ldap-connection-mode" : "LDAP",
+    "primaryLdapServer" : [ "&{common.uhostname}:1389" ],
+    "connectionHeartbeatInterval" : 10,
+    "secondaryLdapServer" : [ ],
+    "userSearchStartDN" : [ "ou=ship,ou=crew,dc=ocean,dc=com" ],
+    "operationTimeout" : 0,
+    "trustAllServerCertificates" : false,
+    "_type" : {
+      "_id" : "ldap",
+      "name" : "LDAP",
+      "collection" : true
+    }
+  }
+}

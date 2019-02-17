@@ -1,0 +1,26 @@
+dn: dc=cts,dc=ocean,dc=com
+objectclass: top
+objectclass: domain
+dc: cts
+aci: (targetattr="*")(version 3.0;acl "Allow entry search"; allow (search, read)(userdn = "ldap:///uid=openam_cts,ou=admins,dc=cts,dc=ocean,dc=com");)
+aci: (targetattr="*")(version 3.0;acl "Modify config entry"; allow (write)(userdn = "ldap:///uid=openam_cts,ou=admins,dc=cts,dc=ocean,dc=com");)
+aci: (targetcontrol="2.16.840.1.113730.3.4.3")(version 3.0;acl "Allow persistent search"; allow (search, read)(userdn = "ldap:///uid=openam_cts=admins,dc=cts,dc=ocean,dc=com");)
+aci: (version 3.0;acl "Add config entry"; allow (add)(userdn = "ldap:///uid=openam_cts,ou=admins,dc=cts,dc=ocean,dc=com");)
+aci: (version 3.0;acl "Delete config entry"; allow (delete)(userdn = "ldap:///uid=openam_cts,ou=admins,dc=cts,dc=ocean,dc=com");)
+
+dn: ou=admins,dc=cts,dc=ocean,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: admins
+
+dn: uid=openam_cts,ou=admins,dc=cts,dc=ocean,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn:  openam_cts
+sn:  openam_cts
+uid:  openam_cts
+userPassword: CTSM0ney69
+ds-privilege-name: subentry-write
+ds-privilege-name: update-schema
