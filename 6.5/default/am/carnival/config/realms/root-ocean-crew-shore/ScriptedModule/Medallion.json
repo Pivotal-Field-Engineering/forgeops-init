@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/crew/shore",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "ScriptedModule",
+    "entityId" : "Medallion",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Medallion",
+    "authenticationLevel" : 1,
+    "clientScript" : "[Empty]",
+    "clientScriptEnabled" : true,
+    "serverScript" : "eec69098-6ce6-4882-bd77-8766d65e2b63",
+    "_type" : {
+      "_id" : "scripted",
+      "name" : "Scripted Module",
+      "collection" : true
+    }
+  }
+}

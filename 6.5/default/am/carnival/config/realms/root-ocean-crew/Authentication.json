@@ -1,0 +1,64 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/crew",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "Authentication",
+    "entityId" : "Authentication",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "accountlockout" : {
+      "lockoutDuration" : 0,
+      "lockoutEmailAddress" : null,
+      "loginFailureLockoutMode" : false,
+      "lockoutDurationMultiplier" : 1,
+      "lockoutWarnUserCount" : 0,
+      "lockoutAttributeValue" : null,
+      "lockoutAttributeName" : null,
+      "loginFailureCount" : 5,
+      "invalidAttemptsDataAttributeName" : null,
+      "loginFailureDuration" : 300,
+      "storeInvalidAttemptsInDataStore" : true
+    },
+    "general" : {
+      "locale" : "en_US",
+      "statelessSessionsEnabled" : false,
+      "userStatusCallbackPlugins" : [ ],
+      "identityType" : [ "agent", "user" ],
+      "defaultAuthLevel" : 0,
+      "twoFactorRequired" : false
+    },
+    "userprofile" : {
+      "defaultRole" : [ ],
+      "aliasAttributeName" : [ "uid" ],
+      "dynamicProfileCreation" : "false"
+    },
+    "security" : {
+      "moduleBasedAuthEnabled" : true,
+      "zeroPageLoginAllowedWithoutReferrer" : true,
+      "sharedSecret" : null,
+      "sharedSecret-encrypted" : "AAAAA0FFUwIQ8dwai+uFAwwL9bFvk/oF6ePjG2DsSR5mrPGK3CpUe46US3IHiHC/jcuHQQOEzglSzbn1wbSlpVfS66kXVIRskGdm68e7X7iP",
+      "keyAlias" : "test",
+      "zeroPageLoginEnabled" : false,
+      "zeroPageLoginReferrerWhiteList" : [ ]
+    },
+    "postauthprocess" : {
+      "usernameGeneratorClass" : "com.sun.identity.authentication.spi.DefaultUserIDGenerator",
+      "loginFailureUrl" : [ "" ],
+      "userAttributeSessionMapping" : [ ],
+      "loginPostProcessClass" : [ ],
+      "usernameGeneratorEnabled" : true,
+      "loginSuccessUrl" : [ "/openam/console" ]
+    },
+    "core" : {
+      "orgConfig" : "ldapService",
+      "adminAuthModule" : "ldapService"
+    },
+    "_type" : {
+      "_id" : "EMPTY",
+      "name" : "Core",
+      "collection" : false
+    }
+  }
+}

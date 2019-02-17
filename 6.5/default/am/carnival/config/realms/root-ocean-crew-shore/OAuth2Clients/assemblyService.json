@@ -1,0 +1,74 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/crew/shore",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "OAuth2Clients",
+    "entityId" : "assemblyService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "assemblyService",
+    "signEncOAuth2ClientConfig" : {
+      "idTokenEncryptionMethod" : "A128CBC-HS256",
+      "jwkSet" : null,
+      "idTokenEncryptionAlgorithm" : "RSA1_5",
+      "userinfoResponseFormat" : "JSON",
+      "jwksCacheTimeout" : 3600000,
+      "userinfoSignedResponseAlg" : null,
+      "requestParameterEncryptedAlg" : null,
+      "tokenEndpointAuthSigningAlgorithm" : "RS256",
+      "requestParameterEncryptedEncryptionAlgorithm" : "A128CBC-HS256",
+      "jwkStoreCacheMissCacheTime" : 60000,
+      "idTokenSignedResponseAlg" : "RS256",
+      "idTokenEncryptionEnabled" : false,
+      "idTokenPublicEncryptionKey" : null,
+      "userinfoEncryptedResponseEncryptionAlgorithm" : "A128CBC-HS256",
+      "publicKeyLocation" : "jwks_uri",
+      "jwksUri" : "&{common.hostname}:8080/openam/oauth2/ocean/crew/shore/connect/jwk_uri",
+      "userinfoEncryptedResponseAlg" : null,
+      "requestParameterSignedAlg" : null,
+      "clientJwtPublicKey" : null
+    },
+    "coreOAuth2ClientConfig" : {
+      "clientType" : "Confidential",
+      "scopes" : [ "cn", "ocean", "openid", "assemblyService", "isMemberOf", "givenName", "sn", "mail", "uid", "oceanroles", "peopleVault", "xisafety" ],
+      "authorizationCodeLifetime" : 0,
+      "accessTokenLifetime" : 0,
+      "agentgroup" : null,
+      "refreshTokenLifetime" : 0,
+      "defaultScopes" : [ "cn", "ocean", "openid", "assemblyService", "isMemberOf", "givenName", "sn", "mail", "uid", "oceanroles", "peopleVault" ],
+      "redirectionUris" : [ ],
+      "clientName" : [ ],
+      "status" : "Active"
+    },
+    "advancedOAuth2ClientConfig" : {
+      "updateAccessToken" : null,
+      "sectorIdentifierUri" : null,
+      "isConsentImplied" : false,
+      "contacts" : [ ],
+      "requestUris" : [ ],
+      "responseTypes" : [ "code", "token", "id_token", "code token", "token id_token", "code id_token", "code token id_token", "device_code", "device_code id_token" ],
+      "descriptions" : [ ],
+      "mixUpMitigation" : false,
+      "subjectType" : "Public",
+      "name" : [ ],
+      "tokenEndpointAuthMethod" : "client_secret_basic"
+    },
+    "coreOpenIDClientConfig" : {
+      "claims" : [ ],
+      "jwtTokenLifetime" : 0,
+      "clientSessionUri" : null,
+      "defaultMaxAgeEnabled" : false,
+      "postLogoutRedirectUri" : [ ],
+      "defaultMaxAge" : 600
+    },
+    "coreUmaClientConfig" : {
+      "claimsRedirectionUris" : [ ]
+    },
+    "_type" : {
+      "_id" : "OAuth2Client",
+      "name" : "OAuth2 Clients",
+      "collection" : true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/crew/shore",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "Scripts",
+    "entityId" : "eec69098-6ce6-4882-bd77-8766d65e2b63",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "eec69098-6ce6-4882-bd77-8766d65e2b63",
+    "name" : "Medallion",
+    "description" : null,
+    "script" : "ZGF0YT1KU09OLnBhcnNlKGNsaWVudFNjcmlwdE91dHB1dERhdGEpOwp1c2VybmFtZT1kYXRhLnVzZXJuYW1lCnBpbj1kYXRhLm1lZGFsbGlvbnBpbgpwaW5ubj1pZFJlcG9zaXRvcnkuZ2V0QXR0cmlidXRlKHVzZXJuYW1lLCdtZWRhbGxpb25QSU4nKTsKbG9nZ2VyLm1lc3NhZ2UoJ1NUQVJUIE1FREFMTElPTiBBVVRIOiAnICsgdXNlcm5hbWUpOwppZiAoaWRSZXBvc2l0b3J5LmdldEF0dHJpYnV0ZSh1c2VybmFtZSwnbWVkYWxsaW9uUElOJykuaXNFbXB0eSgpKSB7CgkJICBhdXRoU3RhdGUgPSBGQUlMRUQKfSBlbHNlIHsKICAgICAgICAvL3BpbkFycmF5ID0gQXJyYXkuZnJvbShwaW5ubik7CiAgICBzdHJQSU4gPSBwaW5ubi50b1N0cmluZygpOwogICAgICAgIGxvZ2dlci5tZXNzYWdlKCdFTlRFUkVEIFBJTk5OOiAnICsgcGluKTsKICAgICAgICBsb2dnZXIubWVzc2FnZSgnU1RPUkVEIFBJTk5OOiAnICsgc3RyUElOKTsKICBpZiAocGluID09IHN0clBJTil7CiAgICAgICAgYXV0aFN0YXRlID0gU1VDQ0VTUwogIH0gZWxzZXsKICAgIGF1dGhTdGF0ZSA9IEZBSUxFRAogIH0KfQ==",
+    "default" : false,
+    "language" : "JAVASCRIPT",
+    "context" : "AUTHENTICATION_SERVER_SIDE",
+    "createdBy" : "null",
+    "creationDate" : 0,
+    "lastModifiedBy" : "null",
+    "lastModifiedDate" : 0
+  }
+}

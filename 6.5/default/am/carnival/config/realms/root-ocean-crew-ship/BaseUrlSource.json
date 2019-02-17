@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/crew/ship",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "BaseUrlSource",
+    "entityId" : "BaseUrlSource",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "contextPath" : "/openam",
+    "fixedValue" : "&{common.hostname}:8080",
+    "source" : "FIXED_VALUE",
+    "extensionClassName" : null,
+    "_type" : {
+      "_id" : "baseurl",
+      "name" : "Base URL Source",
+      "collection" : false
+    }
+  }
+}

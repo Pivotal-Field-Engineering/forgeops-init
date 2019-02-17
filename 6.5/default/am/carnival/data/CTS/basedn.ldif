@@ -1,0 +1,4 @@
+dn: dc=ocean,dc=com
+objectClass: top
+objectClass: domain
+dc: ocean

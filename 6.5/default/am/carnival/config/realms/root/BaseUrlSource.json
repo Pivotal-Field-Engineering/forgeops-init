@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "BaseUrlSource",
+    "entityId" : "BaseUrlSource",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "contextPath" : "/openam",
+    "fixedValue" : "foo",
+    "source" : "REQUEST_VALUES",
+    "extensionClassName" : "bar",
+    "_type" : {
+      "_id" : "baseurl",
+      "name" : "Base URL Source",
+      "collection" : false
+    }
+  }
+}

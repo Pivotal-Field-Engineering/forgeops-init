@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "Applications",
+    "entityId" : "sunAMDelegationService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "sunAMDelegationService",
+    "creationDate" : 1520284664516,
+    "lastModifiedDate" : 1520284664516,
+    "conditions" : [ ],
+    "resourceTypeUuids" : [ "20a13582-1f32-4f83-905f-f71ff4e2e00d" ],
+    "entitlementCombiner" : "DenyOverride",
+    "createdBy" : "id=dsameuser,ou=user,dc=ocean,dc=com",
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=ocean,dc=com",
+    "applicationType" : "sunAMDelegationService",
+    "subjects" : [ "NOT", "OR", "AuthenticatedUsers", "AND", "Identity" ],
+    "saveIndex" : null,
+    "searchIndex" : null,
+    "resourceComparator" : null,
+    "attributeNames" : [ ],
+    "editable" : true,
+    "description" : null,
+    "displayName" : "Delegation Policy Set",
+    "name" : "sunAMDelegationService"
+  }
+}

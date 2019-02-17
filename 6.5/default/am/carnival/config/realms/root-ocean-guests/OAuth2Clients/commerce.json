@@ -1,0 +1,76 @@
+{
+  "metadata" : {
+    "realm" : "/ocean/guests",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "OAuth2Clients",
+    "entityId" : "commerce",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "commerce",
+    "signEncOAuth2ClientConfig" : {
+      "idTokenEncryptionMethod" : "A128CBC-HS256",
+      "jwkSet" : null,
+      "idTokenEncryptionAlgorithm" : "RSA1_5",
+      "userinfoResponseFormat" : "JSON",
+      "jwksCacheTimeout" : 3600000,
+      "userinfoSignedResponseAlg" : null,
+      "requestParameterEncryptedAlg" : null,
+      "tokenEndpointAuthSigningAlgorithm" : "RS256",
+      "idTokenEncryptionEnabled" : false,
+      "userinfoEncryptedResponseEncryptionAlgorithm" : "A128CBC-HS256",
+      "publicKeyLocation" : "jwks_uri",
+      "requestParameterEncryptedEncryptionAlgorithm" : "A128CBC-HS256",
+      "jwkStoreCacheMissCacheTime" : 60000,
+      "idTokenSignedResponseAlg" : "RS256",
+      "idTokenPublicEncryptionKey" : null,
+      "userinfoEncryptedResponseAlg" : null,
+      "jwksUri" : "&{common.hostname}:8080/openam/oauth2/ocean/guests/connect/jwk_uri",
+      "requestParameterSignedAlg" : null,
+      "clientJwtPublicKey" : null
+    },
+    "advancedOAuth2ClientConfig" : {
+      "updateAccessToken" : null,
+      "requestUris" : [ ],
+      "mixUpMitigation" : false,
+      "tokenEndpointAuthMethod" : "client_secret_basic",
+      "sectorIdentifierUri" : null,
+      "isConsentImplied" : false,
+      "contacts" : [ ],
+      "responseTypes" : [ "code", "token", "id_token", "code token", "token id_token", "code id_token", "code token id_token", "device_code", "device_code id_token" ],
+      "descriptions" : [ ],
+      "subjectType" : "Public",
+      "name" : [ ]
+    },
+    "coreOpenIDClientConfig" : {
+      "jwtTokenLifetime" : 0,
+      "clientSessionUri" : null,
+      "postLogoutRedirectUri" : [ ],
+      "defaultMaxAge" : 600,
+      "claims" : [ ],
+      "defaultMaxAgeEnabled" : false
+    },
+    "coreOAuth2ClientConfig" : {
+      "userpassword" : null,
+      "userpassword-encrypted" : "AAAAA0FFUwIQa0k4H4QfE9GNqn1nWYB04P3EwQ8lkHZ3waOLnrLrsqIw573obtJYMQ==",
+      "authorizationCodeLifetime" : 0,
+      "accessTokenLifetime" : 0,
+      "defaultScopes" : [ "commerce", "uid", "mail", "cn", "openid", "isMemberOf", "givenName", "sn", "ocean", "Xidatavault-individualEncrypt", "Xidatavault-individualDecrypt", "Xidatavault-individualRead", "xiDataVault-list", "xiDataVault-IndividualWrite" ],
+      "clientName" : [ ],
+      "clientType" : "Confidential",
+      "scopes" : [ "Xidatavault-individualEncrypt", "Xidatavault-individualDecrypt", "commerce", "uid", "mail", "cn", "openid", "isMemberOf", "givenName", "sn", "ocean" ],
+      "agentgroup" : null,
+      "refreshTokenLifetime" : 0,
+      "redirectionUris" : [ ],
+      "status" : "Active"
+    },
+    "coreUmaClientConfig" : {
+      "claimsRedirectionUris" : [ ]
+    },
+    "_type" : {
+      "_id" : "OAuth2Client",
+      "name" : "OAuth2 Clients",
+      "collection" : true
+    }
+  }
+}
